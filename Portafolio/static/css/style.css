@@ -68,6 +68,7 @@
 	text-align: center;
 	padding: 1.2em 0;
 }
+
 .Header-imageContainer{
 	margin: 0;
 }
@@ -135,6 +136,7 @@
 	text-decoration: none;
 	margin-right: .5em; 
 	padding: .5em 1em;
+	display: inline-block;
 	border-radius: 2em;
 }
 .twitter{
@@ -214,4 +216,12 @@
 	border-radius: 1em;
 	padding: .5em 1em;
 	border:none;
+}
+
+@media screen and (max-width: 480px){
+	.Profile-link{
+		display: block;
+		margin-bottom: 0.5em;
+		margin-left: 0.5em;
+	}
 }
